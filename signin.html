@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>analog sea signup</title>
+	<meta name="description" content="analog sea signup page">
+	<link rel="stylesheet" type="text/css" href="meyer.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<img class="logo" src="logo.png">	
+
+	<div class="whitebox">
+	<header>
+	<h1> Sign up</h1>	
+	</header>
+	<form>
+		<fieldset>
+			<label for="email">Email</label>
+			<input required class="form" type="email" name="email" id="email" placeholder="foo@bar.com">	
+
+			<label for="password">Password</label>
+			<input required class="form" type="text" name="password" id="password" placeholder="P4SSw0rd">
+
+		</fieldset>
+
+
+
+			<input action='/signup/' method='post' class='signup' type="submit">
+
+	</form>
+
+	
+
+		<a class="forgot" href="/forgot-password/new">forgot password?</a>
+
+	</div>
+
+	<p>Already have an account? <a class='login' href="/login">Log in.</a></p>
+</body>
+</html>
